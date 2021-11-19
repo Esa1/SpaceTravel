@@ -3,16 +3,13 @@
 /* ------------------- */
 
 :root {
-    /* Custom properties: */
-
     /* colors */
     --clr-dark: 230 35% 7%;
     --clr-light: 231 77% 90%;
     --clr-white: 0 0% 100%;
-
-    /* font-sizes, weight system */
-    /* Using rem because pixel values can overwrite user made settings */
-    --fs-900: 9.375rem; /* Base size (body text size) */
+    
+    /* font-sizes */
+    --fs-900: 9.375rem;
     --fs-800: 6.25rem;
     --fs-700: 3.5rem;
     --fs-600: 2rem;
@@ -20,12 +17,11 @@
     --fs-400: 1.125rem;
     --fs-300: 1rem;
     --fs-200: 0.875rem;
-
+    
     /* font-families */
     --ff-serif: "Bellefair", serif;
     --ff-sans-cond: "Barlow Condensed", sans-serif;
     --ff-sans-normal: "Barlow", sans-serif;
-    
 }
 
 
@@ -67,10 +63,9 @@ p {
 
 /* set up the body */
 body {
-    /*font-family: --; Shows all the custom properties*/
     font-family: var(--ff-sans-normal);
     font-size: var(--fs-400);
-    color: hsl( var(--clr-light) );
+    color: hsl( var(--clr-white) );
     background-color: hsl( var(--clr-dark) );
     line-height: 1.5;
     min-height: 100vh;
@@ -147,10 +142,6 @@ select {
 .text-dark { color: hsl( var(--clr-dark) );}
 .text-accent { color: hsl( var(--clr-light) );}
 .text-white { color: hsl( var(--clr-white) );}
-
-.example-component {
-    background-color: hsl( var(--clr-light) / .2 );
-}
 
 /* typography */
 
