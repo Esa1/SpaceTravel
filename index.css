@@ -202,5 +202,29 @@ select {
 }
 
 .numbered-title {
-    
+    font-family: var(--ff-sans-cond);
+    font-size: var(--fs-500);
+    text-transform: uppercase;
+    letter-spacing: 4.72px; 
+}
+
+.numbered-title span {
+    margin-right: .5em;
+    font-weight: 700;
+    color: hsl( var(--clr-white) / .25);
+}
+
+
+/* ------------------- */
+/* Compontents         */
+/* ------------------- */
+
+.large-button {
+    display: grid; /*instead of inline-block for the link in button, because it's an inline element and paddings doen't work for it*/
+    place-items: center; /*Shortcurt for line-items and justify-items, when set 'display: grid'*/
+    padding: 0 2em;
+    border-radius: 50%;
+    aspect-ratio: 1; /*Makes the button square*/
+    aspect-ratio: 2 /1;
+    text-decoration: none;
 }
