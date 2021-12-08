@@ -263,3 +263,7 @@ select {
     font-weight: 700;
     margin-right: .5em;
 }
+
+.underline-indicators > * {
+    
+}
