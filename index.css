@@ -247,3 +247,19 @@ select {
     opacity: 1;
     transform: scale(1.5);
 }
+
+.primary-navigation {
+    --gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Because there's some default styling we want to get rid of */
+}
+
+.primary-navigation a {
+    text-decoration: none;
+}
+
+.primary-navigation a > span {
+    font-weight: 700;
+    margin-right: .5em;
+}
