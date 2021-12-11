@@ -277,3 +277,14 @@ select {
 .underline-indicators > .active{
     border-color: hsl( var(--clr-white) / 1);
 }
+
+
+.underline-indicators > .active,
+.underline-indicators > [aria-selected="true"] {
+    color: hsl( var(--clr-white) / 1);
+    border-color: hsl( var(--clr-white) / 1);
+}
+
+.tab-list {
+    --gap: 2rem;
+}
